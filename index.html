@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa Gatinha</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="card" id="card">
+        <div class="card-content">
+            <h1 class="animated-text">✨ Clique Aqui</h1>
+            <p>Descubra uma surpresa encantadora!</p>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <button class="close-btn" id="close-btn">&times;</button>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                    <img src="imgs/foto1.jpeg" alt="TE AMO">
+                    <img src="imgs/foto2.jpeg" alt="TE AMO">
+                    <img src="imgs/foto3.jpeg" alt="TE AMO">
+                    <img src="imgs/foto4.jpg" alt="TE AMO">
+                    <img src="imgs/foto5.jpg" alt="TE AMO">
+                    <img src="imgs/foto6.jpg" alt="TE AMO">
+                    <img src="imgs/foto7.jpg" alt="TE AMO">
+                    <img src="imgs/foto8.jpg" alt="TE AMO">
+                    <img src="imgs/foto9.jpg" alt="TE AMO">
+                    <img src="imgs/foto10.jpg" alt="TE AMO">
+                </div>
+                <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <div class="texto-tempo">
+                <p id="tempo-texto"></p>
+                <p class="texto-amor animated-text">A cada dia que passa, você fica mais linda, e ao mesmo tempo, meu amor por você cresce também!</p>
+            </div>
+            <div class="music-player">
+                <iframe src="https://open.spotify.com/embed/track/0bOqCHcUOMEDoDqYUL0PLW" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
